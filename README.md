@@ -10,24 +10,24 @@ Sistem takođe sadrži modul za obračun korišćenja servisa koji na kraju obra
 
 **Ključne funkcionalnosti**
 
-Registracija i aktivacija novih EPOS klijenata
-Multitenancy podrška sa izolovanim podacima za svakog klijenta
-CRUD upravljanje klijentima
-Kreiranje, pregled i čuvanje faktura
-Generisanje faktura u PDF formatu
-JWT autentifikacija i autorizacija
-Komunikacija mikroservisa putem Message Queue sistema
-REST API za komunikaciju sa web aplikacijom
-Evidencija korišćenja servisa
-Automatsko generisanje mjesečnih faktura za EPOS klijente
-Obračun troškova na osnovu korišćenja sistema
+- Registracija i aktivacija novih EPOS klijenata
+- Multitenancy podrška sa izolovanim podacima za svakog klijenta
+- CRUD upravljanje klijentima
+- Kreiranje, pregled i čuvanje faktura
+- Generisanje faktura u PDF formatu
+- JWT autentifikacija i autorizacija
+- Komunikacija mikroservisa putem Message Queue sistema
+- REST API za komunikaciju sa web aplikacijom
+- Evidencija korišćenja servisa
+- Automatsko generisanje mjesečnih faktura za EPOS klijente
+- Obračun troškova na osnovu korišćenja sistema
 
 **Tehnologije**
 
-Spring Boot
-RESTful API
-Message Queue
-JWT Authentication
-Relaciona baza podataka
-PDF Generator
-Mikroservisna arhitektura
+- Spring Boot
+- RESTful API
+- Message Queue
+- JWT Authentication
+- Relaciona baza podataka
+- PDF Generator
+- Mikroservisna arhitektura
