@@ -1,0 +1,24 @@
+server:
+  port: 8084
+  error:
+    include-message: always
+    include-binding-errors: always
+    include-stacktrace: never
+app:
+  tenant-service:
+    base-url: http://localhost:8081
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+  datasource:
+    # samo da app može da se podigne; realno se routa po tenantu
+    url: jdbc:postgresql://localhost:5432/epos_master
+    username: epos
+    password: epos
+
+epos:
+  jwt:
+    secret: "CHANGE_ME_TO_32+_CHARS_SECRET_CHANGE_ME_123456"

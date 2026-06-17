@@ -1,0 +1,19 @@
+server:
+  port: 8082
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+  datasource:
+    # Ovo je konekcija na "postgres" sistemsku bazu (da može kreirati nove baze)
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: epos
+    password: epos
+
+logging:
+  level:
+    org.springframework.amqp: info

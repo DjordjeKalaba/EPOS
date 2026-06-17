@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/epos_master
+    username: epos
+    password: epos
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  security:
+    user:
+      name: disabled
+      password: disabled
+
+epos:
+  jwt:
+    secret: "CHANGE_ME_TO_32+_CHARS_SECRET_CHANGE_ME_123456"
+    expirationMinutes: 360
+
+
+  error:
+    include-message: always
+    include-binding-errors: always
+    include-stacktrace: never
+
+

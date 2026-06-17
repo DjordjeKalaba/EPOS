@@ -1,0 +1,29 @@
+server:
+  port: 8083
+
+app:
+  tenant-service:
+    base-url: http://localhost:8081
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  # OVO je samo "default" datasource da Spring može da startuje JPA.
+  # Realni datasource će biti dinamički (routing).
+  datasource:
+    url: jdbc:postgresql://localhost:5432/epos_master
+    username: epos
+    password: epos
+
+logging:
+  level:
+    org.springframework.jdbc: info
+
+epos:
+  jwt:
+    secret: "CHANGE_ME_TO_32+_CHARS_SECRET_CHANGE_ME_123456"
