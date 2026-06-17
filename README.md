@@ -1,5 +1,5 @@
-**EPOS Billing Platform
-**
+**EPOS Billing Platform**
+
 Mikroservisna aplikacija za upravljanje klijentima i fakturisanje zasnovana na multitenancy arhitekturi. Sistem omogućava registraciju novih EPOS klijenata, administraciju njihovih korisnika, kreiranje i generisanje faktura u PDF formatu, kao i automatsku naplatu korišćenja EPOS servisa.
 
 Implementirano je automatsko aktiviranje novih klijenata, kreiranje zasebnih baza podataka i konfiguracija sistema za svakog zakupca (tenant). Svaki registrovani klijent može upravljati svojim šifrarnikom klijenata kroz CRUD operacije, kreirati fakture, pregledati istoriju faktura i preuzimati ih kao PDF dokumente.
