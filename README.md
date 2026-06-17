@@ -9,6 +9,7 @@ Arhitektura sistema zasnovana je na mikroservisima koji međusobno komuniciraju 
 Sistem takođe sadrži modul za obračun korišćenja servisa koji na kraju obračunskog perioda automatski generiše fakture za EPOS klijente na osnovu broja izvršenih operacija (upravljanje klijentima i kreiranje faktura).
 
 **Ključne funkcionalnosti**
+
 Registracija i aktivacija novih EPOS klijenata
 Multitenancy podrška sa izolovanim podacima za svakog klijenta
 CRUD upravljanje klijentima
@@ -22,6 +23,7 @@ Automatsko generisanje mjesečnih faktura za EPOS klijente
 Obračun troškova na osnovu korišćenja sistema
 
 **Tehnologije**
+
 Spring Boot
 RESTful API
 Message Queue
